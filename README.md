@@ -1,10 +1,8 @@
 # hao-backprop-test
 
-A Python 3 Flask "Hello World" web server for Backprop integration testing. Do not touch test fixture assets!
+A simple Hello World HTTP server built with Python 3 and Flask. Test project for backprop integration.
 
 ## Setup
-
-Install dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -12,18 +10,20 @@ pip install -r requirements.txt
 
 ## Run
 
-Start the server:
-
 ```bash
 python app.py
 ```
 
-The server runs at http://127.0.0.1:3000/ and responds with `Hello, World!` to all requests.
+The server will start at `http://127.0.0.1:3000/`.
 
 ## Author
 
-hxu
+**hxu**
 
 ## License
 
 MIT
+
+## Note
+
+The non-Python files in this repository (CSV, Java, PDF, JPEG, DOC, TXT) are test fixture assets for backprop integration testing. Do not touch!
