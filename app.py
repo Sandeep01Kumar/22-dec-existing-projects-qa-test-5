@@ -4,7 +4,7 @@ This module implements a minimal HTTP server using Flask that replicates the
 exact behavior of the original Node.js http.createServer() implementation:
 every incoming request, regardless of URL path or HTTP method, receives an
 identical 200 OK response with Content-Type text/plain and body
-'Hello, World!\n' (14 bytes including the trailing newline).
+'Hello, World!\\n' (14 bytes including the trailing newline).
 
 Usage:
     pip install -r requirements.txt
